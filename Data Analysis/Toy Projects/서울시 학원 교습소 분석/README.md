@@ -30,14 +30,14 @@
 
 - [서울시 학원 교습소정보](http://data.seoul.go.kr/dataList/OA-20528/S/1/datasetView.do)
 
-    ![alt text](image-1.png)
+    ![alt text](./img/image-1.png)
   -  서울특별시 학원 및 교습소의 개설년도, 등록번호 , 주소 등을 보유.
   - 각종 plot 시각화에 활용.
   - (24527, 23)
 ---
 - [소상공인시장진흥공단_상가(상권)정보](https://www.data.go.kr/data/15083033/fileData.do)
 
-  ![alt text](image-2.png)
+  ![alt text](./img/image-2.png)
   - 국내 모든 상권의 위도, 경도, 업종 분류 등의 정보를 보유.
   - '서울시'내 '학원' 업종만 필터링하여 사용.
   - 위도, 경도 정보를 활용해 Folium Map 시각화에 사용.
@@ -47,31 +47,31 @@
 ## **분석 프로세스**
 - **지역별 학원 및 교습소 현황**:
   - Plot
-      ![alt text](download.png)
+      ![alt text](./img/download.png)
 
   - Folium Map
-      ![alt text](image.png)
+      ![alt text](./img/image.png)
 ---
 
 - **교습분야별 학원 및 교습소 현황**:
   - Plot
-   ![alt text](download-2.png)
+   ![alt text](./img/download-2.png)
 ---
 
 - **연도별 학원 및 교습소 개원 현황**
   - Plot
-  ![alt text](download-3.png)
+  ![alt text](./img/download-3.png)
 ---
 - **지역별 '해법학원' 현황**
   - plot
-  ![alt text](download-4.png)
+  ![alt text](./img/download-4.png)
 
   - Folium Map
-  ![alt text](image-3.png)
+  ![alt text](./img/image-3.png)
 ---
 - **연도별 해법학원 개원 현황**
   - Plot
-  ![alt text](download-5.png)
+  ![alt text](./img/download-5.png)
 ---
 
 ## **결과**
