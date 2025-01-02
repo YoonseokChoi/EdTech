@@ -1,5 +1,6 @@
 # **서울특별시 학원 및 교습소 현황 분석**
 
+
 > 서울시내 학원 데이터를 기반으로 
 
 ---
@@ -15,52 +16,66 @@
 ---
 
 ## **개요**
-- 프로젝트 배경 및 문제 정의
+- 주제 선정 배경
   - 에듀테크 PM으로서 교육데이터 분석 경험을 쌓기 위해 진행.
-  - 서울시내 학원 및 교습소 현황 파악.
+  - 학원 및 교습소 현황을 파악하여 ~
+---
 - 목표
-  - 연도별 개설 학원
-  - 컴퓨터 학원 현황 
-  - 천재교육 산하 학원 현황
+  - 시각화 등을 통해 연도별 서울시내 학원 및 교습소 현황 파악. 
+  - 천재교육 산하 해법학원 현황 파악.
 
 ---
 
 ## **데이터**
-- 출처:
-  - [서울시 학원 교습소정보](http://data.seoul.go.kr/dataList/OA-20528/S/1/datasetView.do)
 
-- 설명:
-   - 그..
+- [서울시 학원 교습소정보](http://data.seoul.go.kr/dataList/OA-20528/S/1/datasetView.do)
+
+    ![alt text](image-1.png)
+  -  서울특별시 학원 및 교습소의 개설년도, 등록번호 , 주소 등을 보유.
+  - 각종 plot 시각화에 활용.
+  - (24527, 23)
+---
+- [소상공인시장진흥공단_상가(상권)정보](https://www.data.go.kr/data/15083033/fileData.do)
+
+  ![alt text](image-2.png)
+  - 국내 모든 상권의 위도, 경도, 업종 분류 등의 정보를 보유.
+  - '서울시'내 '학원' 업종만 필터링하여 사용.
+  - 위도, 경도 정보를 활용해 Folium Map 시각화에 사용.
+  - (26186, 39)
 ---
 
 ## **분석 프로세스**
-1. **탐색적 데이터 분석 (EDA)**:
-   - Class 비율
-   
-     ![alt text](img/image.png)
-   - 변수간 상관관계
-   ![alt text](img/image-1.png)
-2. **전처리**:
-   - 결측값, 중복 데이터 없음.
-   - 범주형 데이터: One-Hot-Encoding
-   - 연속형 데이터: Min-Max-Scaling
-   ![alt text](img/image-3.png)
-3. **모델링 및 분석 방법**:
-   - `RandomforestClassifier`
-4. **모델 평가**:
-   - 정확도(Accuracy): 약 0.83
+- **지역별 학원 및 교습소 현황**:
+  - Plot
+      ![alt text](download.png)
 
+  - Folium Map
+      ![alt text](image.png)
+---
+
+- **교습분야별 학원 및 교습소 현황**:
+  - Plot
+   ![alt text](download-2.png)
+---
+
+- **연도별 학원 및 교습소 개원 현황**
+  - Plot
+  ![alt text](download-3.png)
+---
+- **지역별 '해법학원' 현황**
+  - plot
+  ![alt text](download-4.png)
+
+  - Folium Map
+  ![alt text](image-3.png)
+---
+- **연도별 해법학원 개원 현황**
+  - Plot
+  ![alt text](download-5.png)
 ---
 
 ## **결과**
-- 남학생보다 여학생들의 학업성취도가 전반적으로 높음.
-![alt text](img/image-4.png)
-
-- 수업 참여도가 높은 학생들의 학업성취도가 높음.
-![alt text](img/image-6.png)
-
-- 부모의 학업 관심도가 높은 학생들의 학업성취도가 높음.
-![alt text](img/image-5.png)
+- d
 
 ---
 
