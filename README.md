@@ -1,2 +1,7 @@
 # EduTech
-에듀테크 PM으로서 직무를 이어나가기 위해 공부한 것들임.
+- 에듀테크 PM 과정을 수료하며 진행한 프로젝트 목록
+
+---
+## [Data Analysis](./Data%20Analysis/)
+## [Web](./Web/)
+## [Study Group](./StudyGroup/)
