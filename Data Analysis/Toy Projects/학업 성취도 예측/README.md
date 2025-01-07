@@ -61,13 +61,13 @@
 
 ## **결과**
 - 남학생보다 여학생들의 학업성취도가 전반적으로 높음.
-![alt text](img/image-4.png)
+![alt text](img/download99.png)
 
 - 수업 참여도가 높은 학생들의 학업성취도가 높음.
-![alt text](img/image-6.png)
+![alt text](image-123.png)
 
 - 부모의 학업 관심도가 높은 학생들의 학업성취도가 높음.
-![alt text](img/image-5.png)
+![alt text](img/download-2.png)
 
 ---
 
