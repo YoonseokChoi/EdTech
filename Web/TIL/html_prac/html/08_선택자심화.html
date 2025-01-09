@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li.second {
+            color: crimson;
+        }
+        
+        li#third {
+                color: royalblue;
+        }
+
+        .first + p {
+            color: royalblue;
+        }
+        
+        .first ~ p {
+                border: 1px solid black;
+        }
+
+        a:link {
+            color: royalblue
+        }
+        
+        a:visited {
+                color: green; /* 방문하면 초록색 */
+        }
+
+        p {
+            border: 1px solid black;
+        }
+        
+        .first:hover {
+                background-color: aquamarine; /* 커서 올리면 아쿠아마린 */
+            }
+
+        .username {
+            border: 2px solid royalblue;
+            outline: none;
+            padding: 5px 10px;
+        }
+        
+        .username:focus {
+            border-color: green; /* 클릭하면 그린 */
+        }
+
+        .Learn > span:nth-child(2n + 1) {
+            color: royalblue;
+        }
+
+        .Learn > span:nth-of-type(5) {
+        color: crimson;
+        }
+        
+        p::before {
+            content: 'Learn ';
+        }
+    </style>
+</head>
+<body>
+    <ul class="parent">
+        <li class="first">1</li>
+        <li class="second">2</li>
+        <li id="third">3</li>
+        <li class="fourth">4</li>
+    </ul>
+    <section>
+        <p class="first">1</p>
+        <p class="second">2</p>
+        <p class="third">3</p>
+        <div>
+            <p class="fourth">4</p>
+        </div>
+    </section>
+
+    <a href="https://www.urlexample.com">이동하기</a>
+    <a href="https://www.naver.com">이동하기</a>    
+
+    <p class="first">첫 번째</p>
+    <p>두 번째</p>  
+
+    <input class="username" type="text" placeholder="아이디를 입력하세요">
+
+    <div class="Learn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+    </div>
+
+
+    <p>HTML/CSS</p>
+</body>
+</html>
