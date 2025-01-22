@@ -1,0 +1,17 @@
+/* h1 {
+    color: red;
+}
+
+button {
+    font-size: 20px;          
+    padding: 80px 150px;      
+    background-color: black; 
+    color: yellow;            
+    border: none;             
+    border-radius: 10px;       
+    cursor: pointer;         
+} */
+
+body {
+    height: 10000px;
+}

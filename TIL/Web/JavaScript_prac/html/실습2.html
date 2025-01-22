@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1 -->
+    <h2>수동 카운터</h2>
+    <p class="p1">0</p>
+    <button class="btn">하나씩 카운트!</button>
+    <button class="reset-btn">RESET</button>
+
+    <hr />
+    <!-- 2 -->
+    <h2>자동 카운터</h2>
+    <p class="p2">0</p>
+    <span>10이 되면 터집니다!</span>
+
+<script>
+    // 수동
+    const p1 = document.querySelector(".p1")
+    const btn = document.querySelector(".btn")
+    const resetBtn = document.querySelector(".reset-btn")
+
+    btn.addEventListener("click", function(event){
+        let cnt = parseInt(p1.innerText);
+        cnt+=1
+        p1.innerText = cnt
+    })
+    resetBtn.addEventListener("click", function(event){
+        p1.innerText = 0
+    })
+
+    // 자동
+    const p2 = document.querySelector(".p2")
+    setInterval(() =>{
+        let cnt = parseInt(p2.innerText)
+        if (cnt <=9) {
+            cnt+=1
+            p2.innerText = cnt
+        }
+    },1000)
+
+</script>
+</body>
+</html>

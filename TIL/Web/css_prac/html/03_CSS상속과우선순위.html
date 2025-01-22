@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            color: royalblue;
+            border: 1px solid black
+        }
+
+        .child {
+            border: inherit;
+        }
+
+        .yellow {
+            color: yellow;
+        }
+        
+        .green {
+            color: green;
+        }
+        
+        #blue {
+            color: blue;
+        }
+        
+        span {
+            color: blueviolet;
+        }
+        
+        .important {
+            color: red !important;
+        }
+
+        #container .textInput {
+            background-color: blue;
+        }
+        
+        input {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        부모
+        <div class="child">자식</div>
+    </div>
+
+    <span class="yellow" id="blue">Learn</span>
+    <span class="yellow" id="blue" style="color: orange;">HTML</span>
+    <span class="yellow">Javascript</span>
+    <span class="yellow green">Django</span>
+    <span class="yellow green important" id="blue" style="color: orange;">Algorithm</span>
+
+    <div id="container">
+        <label for="name">이름 :</label>
+        <input type="text" class="textInput">
+    </div>
+</body>
+</html>

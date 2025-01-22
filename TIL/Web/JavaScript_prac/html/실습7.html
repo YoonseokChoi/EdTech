@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/실습7.css">
+</head>
+<body>
+    <ul class="switcher">
+        <li id="blueButton"></li>
+        <li id="whiteButton"></li>
+        <li id="redButton"></li>
+    </ul>
+    
+    <h1>Theme Switcher</h1>
+
+    <p>테마를 바꿔봅시다.</p>
+
+    <script>
+        const body = document.querySelector("body")
+        const blueBtn = document.querySelector("#blueButton")
+        const whiteBtn = document.querySelector("#whiteButton")
+        const redBtn = document.querySelector("#redButton")
+
+        blueBtn.addEventListener("click", function() {
+            body.style.backgroundColor = "blue"
+            body.style.color = "white"
+        })
+
+        whiteBtn.addEventListener("click", function () {
+            body.style.backgroundColor = "white"
+            body.style.color = "black"
+        })
+
+        redBtn.addEventListener("click", function () {
+            body.style.backgroundColor = "red"
+            body.style.color = "white"
+        })
+    </script>
+</body>
+</html>
