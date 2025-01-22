@@ -7,12 +7,12 @@
 
 
 ## **0. 진행과정**
-- [Communication]("https://southern-crime-6ae.notion.site/5-17304d204583808dbb51eb34e80834e0") : `Notion` `Discord`
+- [Communication](https://southern-crime-6ae.notion.site/5-17304d204583808dbb51eb34e80834e0) : `Notion` `Discord`
 - Survey : `GoogleForm`
 - [Data Analysis](./Data%20Analysis/) : 
     - Languages : `Python`
     - Library : `Pandas` `matplotlib` `Seaborn` `WordCloud` `konlpy`   
-- [Wire Frame]("https://southern-crime-6ae.notion.site/17704d20458380d1b0bce9035473d011") : `figma`
+- [Wire Frame](https://southern-crime-6ae.notion.site/17704d20458380d1b0bce9035473d011) : `figma`
 
 ## **1. 문제 (problem)**
 - **개발자와 비개발 직군 간 소통 부족**
