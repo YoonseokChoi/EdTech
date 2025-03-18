@@ -2,7 +2,7 @@
 > [회의록](https://www.notion.so/2-2025-01-14-2025-01-20-a05c9856b702480ba0602bd4aef910aa?pvs=4)
 
 ## **주제**
-> [천재교육의 천재AI에 대해 알아보기](https://ai.chunjae.co.kr/)
+> [천재교육의 천재AIDT에 대해 알아보기](https://ai.chunjae.co.kr/)
 
 ## **정리**
 - **AI (Auto Intelligence)**
